@@ -4,7 +4,7 @@
  * @typedef {import('hast-util-to-html').Options} Options
  */
 
-import {toHtml} from 'hast-util-to-html'
+import {toHtml} from '../node_modules/hast-util-to-html/index.js'
 
 /** @type {import('unified').Plugin<[Options?]|Array<void>, Node, string>} */
 export default function rehypeStringify(config) {
