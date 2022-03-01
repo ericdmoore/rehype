@@ -28,8 +28,8 @@
  */
 
 // @ts-expect-error: remove when typed
-import Parser5 from 'parse5/lib/parser/index.js'
-import {fromParse5} from 'hast-util-from-parse5'
+import Parser5 from '../node_modules/parse5/lib/parser/index.js'
+import {fromParse5} from '../node_modules/hast-util-from-parse5/index.js'
 import {errors} from './errors.js'
 
 const base = 'https://html.spec.whatwg.org/multipage/parsing.html#parse-error-'
