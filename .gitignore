@@ -1,5 +1,5 @@
 coverage/
-node_modules/
+# node_modules/
 packages/rehype/*.d.ts
 packages/rehype-cli/*.d.ts
 packages/rehype-parse/lib/*.d.ts
