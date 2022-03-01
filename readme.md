@@ -14,6 +14,13 @@ You can use rehype on the server, the client, CLIs, deno, etc.
 
 > rehype for deno
 
+## Packages
+
+- [X] rehype-parse -> `http://denopkg.com/ericdmoore/rehype@main/packages/rehype-parse/mod.ts`
+- [X] rehype-stringify -> `http://denopkg.com/ericdmoore/rehype@main/packages/rehype-stringify/mod.ts`
+- [ ] rehype
+- [ ] rehype-cli
+
 ## License
 
 [MIT][license] © [Titus Wormer][author]
